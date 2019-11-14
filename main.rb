@@ -11,7 +11,7 @@ def menu
   choice = gets.to_i
   case choice
   when 1
-    puts 'Enter git command'
+    puts 'Enter git command'.colorize(:green)
     (gets.strip)
     menu
   when 2
